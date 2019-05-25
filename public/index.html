@@ -19,7 +19,40 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <!-- Stylesheet
+    ================================================== -->
+    <!-- Fonts -->
+    <link rel="stylesheet" href="/fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="/fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/fonts/flaticon/font/flaticon.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/css/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Slider -->
+    <link href="/css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="/css/owl.theme.css" rel="stylesheet" media="screen">
+    <!-- Custom -->
+    <link rel="stylesheet" type="text/css"  href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/loader.css">
+    <!--Social Networks-->
+    <meta prefix="og: http://ogp.me/ns#" property="og:type" content="website"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:title" content="Clément Tailleur Website"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Clément Tailleur Website - Data Scientist"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:url" content="http://clementtailleur.com"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="Clément Tailleur Personal Website"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:image" content="http://clementtailleur.com/img/main/preview.jpg"/>
+    <meta prefix="og: http://ogp.me/ns#" property="og:locale" content="en_US"/>
+
+    <!-- JS SCRIPTS
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/modernizr.custom.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="/js/loader.js"></script>
+
+    <title>Thomas Tailleur</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -35,4 +68,35 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+
+
+  <!-- Custom Scripts -->
+  <script>
+  function nav_resizer(){
+    if(window.innerWidth < 993){
+      document.getElementById("pc").style.display = "none"
+      document.getElementById("mobile").style.display = "block"
+      document.getElementById("navmobile-worldwide").style.display = "none"
+      document.getElementById("world-getter").style.display = "none"
+      document.getElementById("etl-menu").style.display = "none"
+    }else{
+      document.getElementById("pc").style.display = "block"
+      document.getElementById("mobile").style.display = "none"
+      document.getElementById("etl-menu").style.display = "block"
+    }
+  }
+
+  nav_resizer()
+  window.onresize = function(event) {
+    nav_resizer()
+  }
+
+  if(window.location.pathname === '/industrialized-projects/betit'){
+    let iframe_width = document.getElementById('video-component').clientWidth
+    document.getElementById('video-article').style.height = iframe_width/1.78 + 'px'
+  }else if (window.location.pathname === '/data-ops/aws-mongodb') {
+    let iframe_width = document.getElementById('video-component').clientWidth
+    document.getElementById('video-article').style.height = iframe_width/1.78 + 'px'
+  }
+  </script>
 </html>
