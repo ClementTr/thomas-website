@@ -6,10 +6,10 @@ function ProfileComponent (){
     <div id="profile-section">
       <div className="container">
            <div className="row">
-               <div className="col-md-6">
+               <div className="col-md-5">
                    <img src="img/profile2.png" width="80%" className="img-responsive"/>
                </div>
-               <div className="col-md-6">
+               <div className="col-md-7">
                  <div className="about-text">
                      <div className="section-title">
                          <h4>Formation</h4>
@@ -36,15 +36,34 @@ function ProfileComponent (){
                      </ul>
                  </div>
                </div>
-               <div className="experience">
+               <div className="article">
                  <div className="col-md-12">
                   <h2>Expérience Professionnelle</h2>
-                  Diplômé du Collège Ostéopathique Européen à Cergy, j’ai reçu une formation en 5 ans, durant laquelle j’ai été formé à traiter plusieurs types de patients. J’ai en effet pu prendre en charge des bébés, des femmes enceintes, des sportifs, ou encore des personnes âgées.<br/><br/>
-                  J’ai couvert de nombreux évènements dans le domaine du sport: Course croisière EDEHC, les 24H du VTT, championnat de france de Judo catégorie Juniors.<br/><br/>
-                  L’école du Collège Ostéopathique Européen (COE) est agrée par le ministère de la santé, me délivrant ainsi le Diplôme d’Ostéopathe ( D.O ), qui permet l’usage du Titre d’Ostéopathe, et l’exercice libéral d’ostéopathe.<br/><br/>
-                  De plus, elle fait partie des 11 écoles françaises d’ostéopathie, habilitées de Niveau 1 par le Ministère du Travail.<br/><br/>
-                  Concernant ma pratique ostéopathique, j’adapte mon traitement en fonction du motif de consultation, en prenant soin de considérer le patient dans sa globalité. Pour ce faire je pratique aussi bien le structurel que le tissulaire, mais aussi les techniques crâniennes et viscérales.<br/><br/>
-                  Actuellement ostéopathe à Clichy-la-Garenne, au 40 Bis rue Villeneuve 92110, derrière la Mairie de Clichy et au 40 boulevard Gambetta Issy-les-Moulineaux 92130,au cabinet médical. Je vous accueille au sein de mes cabinets d’ostéopathie sur rendez-vous.
+                  <p>
+                    Diplômé du Collège Ostéopathique Européen à Cergy, j’ai reçu une formation en 5 ans, durant laquelle j’ai été formé à traiter plusieurs types de patients.
+                    J’ai en effet pu prendre en charge des bébés, des femmes enceintes, des sportifs, ou encore des personnes âgées.
+                  </p>
+
+                  <p>
+                    J’ai couvert de nombreux évènements dans le domaine du sport: Course croisière EDEHC, les 24H du VTT, championnat de france de Judo catégorie Juniors.
+                  </p>
+
+                  <p>
+                    L’école du Collège Ostéopathique Européen (COE) est agrée par le ministère de la santé, me délivrant ainsi le Diplôme d’Ostéopathe ( D.O ), qui permet l’usage du Titre d’Ostéopathe, et l’exercice libéral d’ostéopathe.
+                  </p>
+
+                  <p>
+                    De plus, elle fait partie des 11 écoles françaises d’ostéopathie, habilitées de Niveau 1 par le Ministère du Travail.
+                  </p>
+
+                  <p>
+                    Concernant ma pratique ostéopathique, j’adapte mon traitement en fonction du motif de consultation, en prenant soin de considérer le patient dans sa globalité.
+                    Pour ce faire je pratique aussi bien le structurel que le tissulaire, mais aussi les techniques crâniennes et viscérales.
+                  </p>
+
+                  <p>
+                    Actuellement ostéopathe à Clichy-la-Garenne, au 40 Bis rue Villeneuve 92110, derrière la Mairie de Clichy et au 40 boulevard Gambetta Issy-les-Moulineaux 92130,au cabinet médical. Je vous accueille au sein de mes cabinets d’ostéopathie sur rendez-vous.
+                  </p>
                  </div>
                </div>
           </div>

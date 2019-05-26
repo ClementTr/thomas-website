@@ -7,17 +7,24 @@ function ContactComponent (){
 
       <div className='contact-title'>
         Me Contacter
-        <br/>
-        06 43 89 09 50
       </div>
       <div className="container contact-content">
       	<div className="row">
         	<div className="col-md-12">
-            Pour prendre rendez-vous, il suffit de me contacter par téléphone au 06 43 89 09 50.<br/><br/>
-            Je suis à votre disposition pour répondre à toutes vos questions, alors n’hésitez pas à envoyer un mail: tailleur.osteo@gmail.com.<br/><br/>
-            Pour tout changement ou annulation de rendez-vous veuillez prévenir 48h à l’avance.<br/><br/>
-            Si vous avez effectué des examens complémentaires récents, tel que des imageries médicales, des examens biologiques, ou encore des comptes-rendus opératoires, veuillez les apporter.
-					</div>
+            <div className="article-content">
+              <p>
+              Pour prendre rendez-vous, il suffit de me contacter par téléphone au <b>06 43 89 09 50</b>.<br/>
+              Je suis à votre disposition pour répondre à toutes vos questions, alors n’hésitez pas
+              à envoyer un mail: <b>tailleur.osteo@gmail.com</b>.<br/>
+              </p>
+
+              <p>
+              Pour tout changement ou annulation de rendez-vous veuillez prévenir 48h à l’avance.<br/>
+              Si vous avez effectué des examens complémentaires récents, tel que des imageries médicales,
+              des examens biologiques, ou encore des comptes-rendus opératoires, veuillez les apporter.
+              </p>
+            </div>
+        	</div>
 				</div>
 			</div>
 
@@ -36,7 +43,7 @@ function ContactComponent (){
                 Bus - Rue Martre - Mairie De Clichy. (ligne TUC)
               </div>
 
-              <iframe width="100%" src="https://maps.google.com/maps?q=40%20Bis%20rue%20Villeneuve%2092110%20Clichy&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+              <iframe width="100%" height="300px" src="https://maps.google.com/maps?q=40%20Bis%20rue%20Villeneuve%2092110%20Clichy&t=&z=15&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
               </iframe>
            </div>
            <div className="vl"></div>
@@ -52,11 +59,13 @@ function ContactComponent (){
                 RER - Issy Val De Seine (ligne C)<br/>
                 Bus - Corentin Celton-Metro (lignes 126, 189 et 394)
               </div>
-              <iframe width="100%" src="https://maps.google.com/maps?q=40%20Boulevard%20Gambetta%2092130%20Issy-les-moulineaux&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+              <iframe width="100%" height="300px" src="https://maps.google.com/maps?q=40%20Boulevard%20Gambetta%2092130%20Issy-les-moulineaux&t=&z=15&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
               </iframe>
            </div>
         </div>
       </div>
+
+      <RDVButtonComponent/>
 
 
     </div>

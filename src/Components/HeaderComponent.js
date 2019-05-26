@@ -1,5 +1,6 @@
 import SupHeaderComponent from './SupHeaderComponent';
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 function HeaderComponent (){
   return (
@@ -11,15 +12,15 @@ function HeaderComponent (){
         <nav className="navbar navbar-expand-lg header-nav">
           <ul className="navbar-nav nav-fill w-100">
             <li className="nav-item">
-              <a className="nav-link" href="/">Accueil</a>
+              <Link to="/" className="nav-link">Accueil</Link>
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Mon Profil
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a className="dropdown-item" href="/thomas-tailleur">Thomas Tailleur</a>
-                <a className="dropdown-item" href="/partenaires">Partenaires</a>
+                <Link to="/thomas-tailleur" className="dropdown-item">Thomas Tailleur</Link>
+                <Link to="/partenaires" className="dropdown-item">Partenaires</Link>
               </div>
             </li>
             <li className="nav-item dropdown">
@@ -27,11 +28,11 @@ function HeaderComponent (){
                 Pour Qui ?
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a className="dropdown-item" href="/osteopathie-du-nourrisson">Ostéopathie du Nourrisson</a>
-                <a className="dropdown-item" href="/osteopathie-de-la-femme-enceinte">Ostéopathie de la femme enceinte</a>
-                <a className="dropdown-item" href="/osteopathie-de-l-enfant">Ostéopathie de l'enfant</a>
-                <a className="dropdown-item" href="/osteopathie-du-sportif">Ostéopathie du sportif</a>
-                <a className="dropdown-item" href="/osteopathie-de-l-adulte">Ostéopathie de l'adulte</a>
+                <Link className="dropdown-item" to="/osteopathie-du-nourrisson">Ostéopathie du Nourrisson</Link>
+                <Link className="dropdown-item" to="/osteopathie-de-la-femme-enceinte">Ostéopathie de la femme enceinte</Link>
+                <Link className="dropdown-item" to="/osteopathie-de-l-enfant">Ostéopathie de l'enfant</Link>
+                <Link className="dropdown-item" to="/osteopathie-du-sportif">Ostéopathie du sportif</Link>
+                <Link className="dropdown-item" to="/osteopathie-de-l-adulte">Ostéopathie de l'adulte</Link>
               </div>
             </li>
             <li className="nav-item dropdown">
@@ -39,17 +40,14 @@ function HeaderComponent (){
                 Vidéos
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a className="dropdown-item" href="/etirements">À Savoir: Étirements</a>
-                <a className="dropdown-item" href="/etirements-partie-haute">Étirements: Partie Haute</a>
-                <a className="dropdown-item" href="/etirments-partie-basse">Étirements: Partie Basse</a>
-                <a className="dropdown-item" href="/renforcement-musculaire">Renforcement Musculaire</a>
+                <Link className="dropdown-item" to="/etirements">À Savoir: Étirements</Link>
+                <Link className="dropdown-item" to="/etirements-partie-haute">Étirements: Partie Haute</Link>
+                <Link className="dropdown-item" to="/etirments-partie-basse">Étirements: Partie Basse</Link>
+                <Link className="dropdown-item" to="/renforcement-musculaire">Renforcement Musculaire</Link>
               </div>
             </li>
-            {/*<li className="nav-item">
-              <a className="nav-link" href="/prendre-rendez-vous">Prendre Rendez-vous</a>
-            </li>*/}
             <li className="nav-item">
-              <a className="nav-link" href="/contact">Contacts & Rendez-vous</a>
+              <Link className="nav-link" to="/contact">Contacts & Rendez-vous</Link>
             </li>
           </ul>
         </nav>

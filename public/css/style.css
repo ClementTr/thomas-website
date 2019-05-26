@@ -4,11 +4,11 @@
 
 body {
     background: #fff;
-    font-family: "Josefin Sans", arial, sans-serif !important;
-    font-weight: 300;
+    font-family: "Arial", arial, sans-serif !important;
+    font-weight: 400;
     font-size: 18px !important;
-    line-height: 1.9;
-    color: #6c757d;
+    line-height: 1.5;
+    color: #353738d6;
 }
 
 .mobile-menu{
@@ -23,21 +23,26 @@ body {
 }
 
 .header-name{
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 36px;
+  color: #116089;
+  font-weight: 800;
 }
 
 .header-job{
   font-size: 30px;
+  color: #116089;
 }
 
 .header-place{
   font-size: 28px;
-  margin-top: 20px;
+  margin-top: 40px;
+  color: #116089;
 }
 
 .header-number{
-  font-size: 20px;
+  font-size: 40px;
+  color: #116089;
 }
 
 .header-nav{
@@ -50,7 +55,11 @@ body {
 
 .purpose-title{
   margin-bottom: 50px;
+  text-transform: uppercase;
+  color: #02B8BE;
+  font-weight: 600;
   text-align: center;
+  font-size: 40px;
 }
 
 .purpose-content{
@@ -63,6 +72,7 @@ body {
 
 .contact-city-title{
   text-align: center;
+  font-weight: 600;
 }
 
 .contact-city-address{
@@ -80,11 +90,13 @@ body {
 }
 
 .contact-title{
-  font-size: 30px;
   margin-top: 50px;
   margin-bottom: 50px;
+  text-transform: uppercase;
+  color: #02B8BE;
+  font-weight: 600;
   text-align: center;
-  font-style: italic;
+  font-size: 40px;
 }
 
 .vl {
@@ -97,15 +109,8 @@ body {
 }
 
 #rdv-section{
-  margin-top: 40px;
-  text-align: center;
-}
-
-.experience{
-  margin-top: 50px;
-}
-
-.experience h2{
+  margin-top: 30px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -158,10 +163,16 @@ body {
 }
 
 .btn{
-  padding: .25rem 3.5rem;
+  padding: 0.50rem 5.5rem;
   font-size: 18px;
   line-height: 1.5;
   border-radius: 3.2rem;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #147cea;
+  border-color: #147cea;
 }
 
 .btn a{
@@ -186,6 +197,12 @@ button.btn.tf-btn.btn-default {
 	box-shadow: none;
 }
 
+.btn-primary{
+  color: #fff;
+  background-color: rgba(2, 184, 191, 1);
+  border-color: rgba(2, 184, 191, 1);
+}
+
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -195,6 +212,56 @@ button.btn.tf-btn.btn-default {
 	outline: thin dotted;
 	outline: none;
 	outline-offset: none;
+}
+
+.section-title h4{
+  color: #116089;
+  font-size: 35px;
+}
+
+.about-list li{
+  margin-bottom: 15px;
+}
+
+.article{
+  margin-top: 50px;
+}
+
+.article h2{
+  text-transform: uppercase;
+  color: #02B8BE;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+
+.article-content{
+  margin-bottom: 60px;
+}
+
+.medical-video{
+  margin-bottom: 60px;
+}
+
+.medical-video h4{
+  text-transform: uppercase;
+  color: #02B8BE;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.justify{
+  text-align: justify;
+}
+
+.partenaires h2{
+  text-transform: uppercase;
+  color: #02B8BE;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 45px;
 }
 
 .site-footer{
