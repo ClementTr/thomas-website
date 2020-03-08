@@ -1,4 +1,5 @@
 import CarouselComponent from './CarouselComponent';
+import ContactComponent from './ContactComponent';
 import Link from 'react-router-dom'
 import React from 'react';
 
@@ -50,10 +51,6 @@ function HomeComponent (){
               </p>
 
               <p className="justify">
-                La médecine ostéopathique est l’art de diagnostiquer et de traiter par les mains les dysfonctions de
-                micro-mobilité du corps pouvant entraîner un trouble de la fonction et provoquer au long terme une
-                altération de l’état de santé. L’ostéopathie améliore l’état de santé et traite les douleurs chroniques
-                et celles qui résistent aux traitements par la médecine allopathique.<br/>
                 L’ostéopathe utilise ses mains pour diagnostiquer et traiter l’origine de la douleur décrite par le
                 patient. Les méthodes utilisées sont basées sur des années de formation et d’expérience. L’ostéopathe
                 travaille en collaboration avec d’autres professionnels de la santé afin d’optimiser le traitement des
@@ -63,6 +60,9 @@ function HomeComponent (){
               </div>
            </div>
         </div>
+
+        <ContactComponent/>
+
       </div>
 
 

@@ -1,3 +1,4 @@
+import RDVButtonComponent from './RDVButtonComponent';
 import React from 'react';
 
 function SupHeaderComponent (){
@@ -22,6 +23,7 @@ function SupHeaderComponent (){
             <div className="header-number">
               06 43 89 09 50
             </div>
+            <RDVButtonComponent/>
          </div>
        </div>
      </div>

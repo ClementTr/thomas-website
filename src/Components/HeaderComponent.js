@@ -28,7 +28,7 @@ function HeaderComponent (){
                 Pour Qui ?
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <Link className="dropdown-item" to="/osteopathie-du-nourrisson">Ostéopathie du Nourrisson</Link>
+                <Link className="dropdown-item" to="/osteopathie-du-nourrisson">Ostéopathie du nourrisson</Link>
                 <Link className="dropdown-item" to="/osteopathie-de-la-femme-enceinte">Ostéopathie de la femme enceinte</Link>
                 <Link className="dropdown-item" to="/osteopathie-de-l-enfant">Ostéopathie de l'enfant</Link>
                 <Link className="dropdown-item" to="/osteopathie-du-sportif">Ostéopathie du sportif</Link>
@@ -40,7 +40,7 @@ function HeaderComponent (){
                 Vidéos
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <Link className="dropdown-item" to="/etirements">À Savoir: Étirements</Link>
+                <Link className="dropdown-item" to="/etirements">Étirements: Généralité</Link>
                 <Link className="dropdown-item" to="/etirements-partie-haute">Étirements: Partie Haute</Link>
                 <Link className="dropdown-item" to="/etirments-partie-basse">Étirements: Partie Basse</Link>
                 <Link className="dropdown-item" to="/renforcement-musculaire">Renforcement Musculaire</Link>

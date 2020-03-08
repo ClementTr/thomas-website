@@ -24,7 +24,7 @@ function RenforcementComponent (){
 			<div className="container">
       	<div className="row">
 
-        	<div className="col-md-6 medical-video">
+        			<div className="col-md-6 medical-video">
 						<h4>Échauffement musculaire</h4>
 						{/*}<iframe allowFullScreen="allowfullscreen" width="100%" height="300px" src="https://www.youtube.com/embed/OkV0y3j58Dk">
 						</iframe>*/}
