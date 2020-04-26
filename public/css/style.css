@@ -11,6 +11,10 @@ body {
     color: #353738d6;
 }
 
+.information-row {
+  background: rgba(204, 150, 22, 0.77)
+}
+
 .mobile-menu{
  color: #007bff !important;
 }

@@ -98,15 +98,16 @@
   <script>
   function nav_resizer(){
     if(window.innerWidth < 993){
-      document.getElementById("pc").style.display = "none"
-      document.getElementById("mobile").style.display = "block"
-      document.getElementById("navmobile-worldwide").style.display = "none"
-      document.getElementById("world-getter").style.display = "none"
-      document.getElementById("etl-menu").style.display = "none"
+      document.getElementById("pc-menu").style.display = "none"
+      document.getElementById("pc-home").style.display = "none"
+
+      document.getElementById("pc-header").style.display = "none"
+      document.getElementById("mobile-header").style.display = "block"
     }else{
-      document.getElementById("pc").style.display = "block"
-      document.getElementById("mobile").style.display = "none"
-      document.getElementById("etl-menu").style.display = "block"
+      document.getElementById("pc-menu").style.display = "block"
+
+      document.getElementById("pc-header").style.display = "block"
+      document.getElementById("mobile-header").style.display = "none"
     }
   }
 
