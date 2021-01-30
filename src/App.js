@@ -16,6 +16,9 @@ import EtirementsComponent from './Components/EtirementsComponent';
 import EtirementsHautComponent from './Components/EtirementsHautComponent';
 import EtirementsBasComponent from './Components/EtirementsBasComponent';
 import RenforcementComponent from './Components/RenforcementComponent';
+import PopupComponent from './Components/PopupComponent'
+import 'react-notifications/lib/notifications.css';
+
 
 import React, { Component } from 'react';
 import {
@@ -24,10 +27,19 @@ import {
   Switch
 } from 'react-router-dom';
 
+
+
 class App extends Component {
+
+  componentDidMount() {
+    document.getElementById("popup").click()
+  }
+    
   render() {
+
     return (
       <Router>
+        <PopupComponent />
         <div>
           <HeaderComponent/>
 
@@ -53,6 +65,7 @@ class App extends Component {
       </Router>
     );
   }
+
 }
 
 export default App;
