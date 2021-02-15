@@ -27,6 +27,14 @@ import {
   Switch
 } from 'react-router-dom';
 
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+    gtmId: 'GTM-TFPCC45'
+}
+
+TagManager.initialize(tagManagerArgs)
+
 
 
 class App extends Component {
