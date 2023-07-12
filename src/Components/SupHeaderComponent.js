@@ -34,7 +34,7 @@ function SupHeaderComponent (){
       </div>
 
 
-      <div id='mobile-header'>
+      {/*<div id='mobile-header'>
         <div className="container">
           <div className="row">
             <div className="col-md-5">
@@ -62,7 +62,7 @@ function SupHeaderComponent (){
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
 
 
 
