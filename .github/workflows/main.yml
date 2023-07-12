@@ -74,4 +74,4 @@ jobs:
           aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
       # Clear Cloudfront cache to update website
       - name: Clear cache
-        run: aws cloudfront create-invalidation --distribution-id E2294DXPG9HTGF --paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id E3P6DQR2FHUTU7 --paths "/*"
