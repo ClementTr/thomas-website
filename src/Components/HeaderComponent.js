@@ -1,8 +1,6 @@
 import SupHeaderComponent from './SupHeaderComponent';
 import PCMenuComponent from './PCMenuComponent';
-import MobileMenuComponent from './MobileMenuComponent';
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 function HeaderComponent (){
   return (
