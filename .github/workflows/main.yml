@@ -56,7 +56,7 @@ jobs:
           aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
       # Copy the files from build folder to the S3 bucket
       - name: Deploy to S3
-        run: aws s3 sync . s3://clementtailleur.com
+        run: aws s3 sync . s3://osteopathetailleurthomas.com
         working-directory: react-github-actions-build
         
   clear_cache:
